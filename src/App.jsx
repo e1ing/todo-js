@@ -6,7 +6,6 @@ import { AppRouter } from "./components/AppRouter";
 export const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />
       <AppRouter />
     </BrowserRouter>
   );
