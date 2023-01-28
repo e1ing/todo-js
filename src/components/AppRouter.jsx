@@ -7,7 +7,6 @@ import { Error } from "../pages/Error";
 import { Navbar } from "./UI/navbar/Navbar";
 
 export const AppRouter = () => {
-  const { id } = useParams();
   return (
     <Routes>
       <Route path="/" element={<Navbar />}>
